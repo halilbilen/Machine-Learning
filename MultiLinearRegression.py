@@ -14,4 +14,3 @@ ageBmis = data.iloc[:,[0,2]].values
 regression = LinearRegression()
 regression.fit(ageBmis,expenses)
 print(regression.predict(np.array([[30,20],[30,21],[20,22],[20,23],[20,24]])))
-
